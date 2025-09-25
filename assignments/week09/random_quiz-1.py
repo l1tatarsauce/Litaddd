@@ -38,11 +38,11 @@ print(f"ความพยายามครั้งที่่ {i+1}")
 guess_random = int(input("What is your guess number (1,20)? : "))
  
 if test_random == guess_number:
-    print("ยูเก่งมากกก")
+    print("คุณพี่เก่งมากกก")
     break
  
 elif guess_number < test_random:
-    print("อาาจจะยังน้าา")
+    print("อาจจะมิใช่")
  
 elif guess_number > test_random:
-    print("ผิดจ้า มากไปหน่อย")
+    print("ผิดจ้า มากไปเด้อหน่อง")
